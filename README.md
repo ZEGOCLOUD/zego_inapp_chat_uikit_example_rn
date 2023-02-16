@@ -31,11 +31,3 @@ export default appConfig;
     yarn ios # After installing the dependencies, execute this to run the project in iOS.
     yarn android # After installing the dependencies, execute this to run the project in Android.
 ```
-
-## More to explore
-
-@@@ZIMKMIT_samplecode_moretoexplore@@@
-
-## Get support
-
-@@@ZIMKit_GetSupport@@@
