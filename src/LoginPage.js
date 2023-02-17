@@ -11,7 +11,7 @@ export default function LoginPage(props) {
   const [userID, setUserID] = useState('');
   const [userName, setUserName] = useState('');
   useEffect(() => {
-    ZIMKit.getInstance().init(appConfig.appID, appConfig.appSign);
+    ZIMKit.init(appConfig.appID, appConfig.appSign);
     reload();
   }, []);
   const reload = () => {
@@ -20,17 +20,15 @@ export default function LoginPage(props) {
   };
   const navigation = useNavigation();
   const login = () => {
-    ZIMKit.getInstance()
-      .connectUser({ userID, userName }, '')
-      .then((data) => {
-        // sdk failed callback is [Error: login failed], no code.
-        if (data === userID) {
-          navigation.navigate('HomePage', {
-            userID,
-            userName,
-          });
-        }
-      });
+    ZIMKit.connectUser({ userID, userName }, '').then((data) => {
+      // sdk failed callback is [Error: login failed], no code.
+      if (data === userID) {
+        navigation.navigate('HomePage', {
+          userID,
+          userName,
+        });
+      }
+    });
   };
   return (
     <View

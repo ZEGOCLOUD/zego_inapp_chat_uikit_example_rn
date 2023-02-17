@@ -3334,7 +3334,7 @@ prompts@^2.4.0:
 
 prop-types@^15.6.0:
   version "15.8.1"
-  resolved "https://registry.npmmirror.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
   dependencies:
     loose-envify "^1.4.0"
@@ -3366,7 +3366,7 @@ range-parser@~1.2.1:
 
 react-delegate-component@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmmirror.com/react-delegate-component/-/react-delegate-component-1.0.0.tgz#c17f9e15afbea4e1d83553bf960f17c8835aaf52"
+  resolved "https://registry.npmjs.org/react-delegate-component/-/react-delegate-component-1.0.0.tgz#c17f9e15afbea4e1d83553bf960f17c8835aaf52"
   integrity sha512-xdpNHPoiBQF0Ob4z5EqQUEK2sBjy0ooXe9xqsLlaA19l5dUASu3mIkfXMdBmMLCSfByPa0NluEN6BUDaI5EnlQ==
   dependencies:
     prop-types "^15.6.0"
@@ -4303,7 +4303,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.npmmirror.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zego-zim-react-native@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.npmjs.org/zego-zim-react-native/-/zego-zim-react-native-2.5.0.tgz#6088a444d0f690499a13884c01b71d05390f63d6"
-  integrity sha512-SZ6FABfq/89j+vNElUdAItxxHMT0yx+/PReAOvYRdg7KyzJIXbKSqxpQF22jKxYfYKEKnh1KzYL73tw7D8Ekjg==
+zego-zim-react-native@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.npmjs.org/zego-zim-react-native/-/zego-zim-react-native-2.6.0.tgz#140316fbce1b45be98583b6903122912bc0daf23"
+  integrity sha512-oBRTvDcN5ce8bKS7lkt0E2QT5ZUx2ANUCxtH3+0V7N1elCsyBdvPJX6uYLOY5CNCR35yzT1Mhsn+g3WhHydQGQ==
