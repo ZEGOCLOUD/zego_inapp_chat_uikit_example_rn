@@ -1072,9 +1072,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@zegocloud/zimkit-rn@link: ..":
-  version "0.0.0"
-  uid ""
+"@zegocloud/zimkit-rn@^2.0.0-beta.0":
+  version "2.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@zegocloud/zimkit-rn/-/zimkit-rn-2.0.0-beta.0.tgz#c139a7a895b31e9b98149a8cac681d04849ae5ae"
+  integrity sha512-+qMUBIKGgZ/luhU3y8nEhngbhKPPIxikiA3tzR0wyJwy7nFKrNG1p8kkZaejf03yx57aVMBK29FVQ+XLYNkOSQ==
 
 abort-controller@^3.0.0:
   version "3.0.0"
@@ -4303,7 +4304,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.npmmirror.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zego-zim-react-native@2.6.0:
-  version "2.6.0"
-  resolved "https://registry.npmjs.org/zego-zim-react-native/-/zego-zim-react-native-2.6.0.tgz#140316fbce1b45be98583b6903122912bc0daf23"
-  integrity sha512-oBRTvDcN5ce8bKS7lkt0E2QT5ZUx2ANUCxtH3+0V7N1elCsyBdvPJX6uYLOY5CNCR35yzT1Mhsn+g3WhHydQGQ==
+zego-zim-react-native@2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/zego-zim-react-native/-/zego-zim-react-native-2.7.1.tgz#0abc906cb25a92902745ba37e30ae14efe446109"
+  integrity sha512-9NyOZR1yBwwcOjmao21Uow83+Cq5fnTrAtPFH4n2IU5wumA5prdvtBXz6u4WkPB8aGtTXEmDNfPwm3xk/3WAdA==
