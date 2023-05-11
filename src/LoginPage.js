@@ -5,6 +5,8 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { randomName } from './utils';
 import { ZIMKit } from '@zegocloud/zimkit-rn';
 import appConfig from './KeyCenter';
+import * as ZIM from 'zego-zim-react-native';
+import ZegoUIKitPrebuiltCallService from "@zegocloud/zego-uikit-prebuilt-call-rn";
 
 export default function LoginPage(props) {
   const insets = useSafeAreaInsets();
@@ -23,6 +25,15 @@ export default function LoginPage(props) {
     ZIMKit.connectUser({ userID, userName }, '').then((data) => {
       // sdk failed callback is [Error: login failed], no code.
       if (data === userID) {
+        ZegoUIKitPrebuiltCallService.init(
+          appConfig.appID,
+          appConfig.appSign,
+          userID,
+          userName,
+          [ZIM],
+        ).then(() => {
+          console.log('init success!');
+        });
         navigation.navigate('HomePage', {
           userID,
           userName,

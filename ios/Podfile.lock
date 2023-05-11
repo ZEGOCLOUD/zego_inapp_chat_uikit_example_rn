@@ -308,9 +308,9 @@ PODS:
     - RCTTypeSafety
     - React-Core
     - ReactCommon/turbomodule/core
-  - react-native-zego-zim (2.6.0):
+  - react-native-zego-zim (2.7.1):
     - React
-    - ZIM (= 2.6.0)
+    - ZIM (= 2.7.1)
   - React-perflogger (0.70.6)
   - React-RCTActionSheet (0.70.6):
     - React-Core/RCTActionSheetHeaders (= 0.70.6)
@@ -384,9 +384,9 @@ PODS:
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
-  - zegocloud-zimkit-rn (0.1.6-beta):
+  - zegocloud-zimkit-rn (2.0.0-beta.0):
     - React-Core
-  - ZIM (2.6.0)
+  - ZIM (2.7.1)
 
 DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
@@ -451,7 +451,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
-  - zegocloud-zimkit-rn (from `../..`)
+  - "zegocloud-zimkit-rn (from `../node_modules/@zegocloud/zimkit-rn`)"
 
 SPEC REPOS:
   trunk:
@@ -548,7 +548,7 @@ EXTERNAL SOURCES:
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
   zegocloud-zimkit-rn:
-    :path: "../.."
+    :path: "../node_modules/@zegocloud/zimkit-rn"
 
 SPEC CHECKSUMS:
   boost: a7c83b31436843459a1961bfd74b96033dc77234
@@ -586,7 +586,7 @@ SPEC CHECKSUMS:
   React-jsinspector: 60769e5a0a6d4b32294a2456077f59d0266f9a8b
   React-logger: 1623c216abaa88974afce404dc8f479406bbc3a0
   react-native-safe-area-context: 99b24a0c5acd0d5dcac2b1a7f18c49ea317be99a
-  react-native-zego-zim: 27281baf738440d58f8b1d62ac7829f17b8c4eaf
+  react-native-zego-zim: b35ee3f60bbe3961538fdaf4e7b8601b05bf6ff4
   React-perflogger: 8c79399b0500a30ee8152d0f9f11beae7fc36595
   React-RCTActionSheet: 7316773acabb374642b926c19aef1c115df5c466
   React-RCTAnimation: 5341e288375451297057391227f691d9b2326c3d
@@ -603,8 +603,8 @@ SPEC CHECKSUMS:
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: 99caf8d5ab45e9d637ee6e0174ec16fbbb01bcfc
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
-  zegocloud-zimkit-rn: d55c7b8062776f84f7a82054e0a6ac102b69fe92
-  ZIM: 6b320ccd4d189f522192031c0a923150283c2c9c
+  zegocloud-zimkit-rn: a5b7379b337eef9d52816a521cadb33e711157b6
+  ZIM: 70617c39c931038adc87bbe1f4aee3c80bbc997d
 
 PODFILE CHECKSUM: 95f8030559418d3fef4e2e926b977014c0a3d568
 
