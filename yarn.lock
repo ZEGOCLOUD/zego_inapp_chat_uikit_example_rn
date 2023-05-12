@@ -1072,10 +1072,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@zegocloud/zimkit-rn@^2.0.0-beta.0":
-  version "2.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@zegocloud/zimkit-rn/-/zimkit-rn-2.0.0-beta.0.tgz#c139a7a895b31e9b98149a8cac681d04849ae5ae"
-  integrity sha512-+qMUBIKGgZ/luhU3y8nEhngbhKPPIxikiA3tzR0wyJwy7nFKrNG1p8kkZaejf03yx57aVMBK29FVQ+XLYNkOSQ==
+"@zegocloud/zimkit-rn@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@zegocloud/zimkit-rn/-/zimkit-rn-2.0.0.tgz#5c5244461b9c09c55b6cf8db13778c99eb82b34b"
+  integrity sha512-NfJa7cZzj19q7pUh7EX6xNU+7A58wioSnc52R57rDtU/vvNqu29k6US8X0K5Op5RZoVIs3z3fyiLNmN1J/4B4w==
 
 abort-controller@^3.0.0:
   version "3.0.0"
