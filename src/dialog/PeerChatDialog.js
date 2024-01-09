@@ -9,7 +9,6 @@ import {
 } from 'react-native';
 import { useState, useEffect } from 'react';
 import { useNavigation } from '@react-navigation/native';
-import { ZegoSendCallInvitationButton } from "@zegocloud/zego-uikit-prebuilt-call-rn";
 
 function PeerChatDialog(props) {
   const { dialogVisible, onDialogVisibleChanged } = props;
@@ -32,14 +31,7 @@ function PeerChatDialog(props) {
             onPressed: () => {
               navigation.goBack();
             },
-          },
-          () => <ZegoSendCallInvitationButton
-            invitees={[{userID, userName: userID }]}
-          />,
-          () => <ZegoSendCallInvitationButton
-            isVideoCall={true}
-            invitees={[{userID, userName: userID }]}
-          />
+          }
         ],
       });
     }
