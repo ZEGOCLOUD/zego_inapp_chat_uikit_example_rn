@@ -15,7 +15,6 @@ import PeerChatDialog from './dialog/PeerChatDialog';
 import GroupChatDialog from './dialog/GroupChatDialog';
 import JoinGroupChatDialog from './dialog/JoinGroupChatDialog';
 import { ZIMKit, ConversationList } from '@zegocloud/zimkit-rn';
-import { ZegoSendCallInvitationButton } from "@zegocloud/zego-uikit-prebuilt-call-rn";
 
 export default function HomePage(props) {
   const { route } = props;
@@ -91,24 +90,11 @@ export default function HomePage(props) {
     const preMessageSending = (message) => {
       return message;
     };
+    console.log('#######props', props);
     navigation.navigate('MessageListPage', {
       ...props,
       preMessageSending,
-      appBarActions: props.conversationType === 0 ? [
-        {
-          icon: 'goBack',
-          onPressed: () => {
-            navigation.goBack();
-          },
-        },
-        () => <ZegoSendCallInvitationButton
-          invitees={[{userID: props.conversationID, userName: props.conversationName }]}
-        />,
-        () => <ZegoSendCallInvitationButton
-          isVideoCall={true}
-          invitees={[{userID: props.conversationID, userName: props.conversationName }]}
-        />
-      ] : [{
+      appBarActions: [{
         icon: 'goBack',
         onPressed: () => {
           navigation.goBack();
