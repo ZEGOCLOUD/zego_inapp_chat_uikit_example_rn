@@ -90,7 +90,6 @@ export default function HomePage(props) {
     const preMessageSending = (message) => {
       return message;
     };
-    console.log('#######props', props);
     navigation.navigate('MessageListPage', {
       ...props,
       preMessageSending,
@@ -127,7 +126,7 @@ export default function HomePage(props) {
       </View>
     );
   };
-  const itemBuilder = () => {
+  const itemBuilder = ({item}) => {
     return (
       <View style={style.conversationItem}>
         <Text>custom conversation item</Text>

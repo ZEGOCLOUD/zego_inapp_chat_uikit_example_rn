@@ -42,8 +42,8 @@
     "react-native-screens": "^4.7.0",
     "react-delegate-component": "^1.0.0",
 
-    "zego-zim-react-native": "2.12.1",
-    "@zegocloud/zimkit-rn": "2.1.5"
+    "zego-zim-react-native": "^2.19.1",
+    "@zegocloud/zimkit-rn": "^2.1.8"
   },
   "engines": {
     "node": ">=18"

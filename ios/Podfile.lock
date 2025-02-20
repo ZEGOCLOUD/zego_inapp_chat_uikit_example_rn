@@ -1237,23 +1237,11 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-encrypted-storage (4.0.3):
-    - React-Core
-  - react-native-keep-awake (4.0.0):
-    - React
-  - react-native-orientation-locker (1.7.0):
-    - React-Core
   - react-native-safe-area-context (5.2.0):
     - React-Core
-  - react-native-zego-express-engine (3.19.0):
-    - React
-    - ZegoExpressEngine (= 3.19.0)
-  - react-native-zego-zim (2.19.0):
+  - react-native-zego-zim (2.19.1):
     - React
     - ZIM (= 2.19.0)
-  - react-native-zego-zpns (2.6.6):
-    - React
-    - ZPNs (= 2.6.0)
   - React-nativeconfig (0.75.5)
   - React-NativeModulesApple (0.75.5):
     - glog
@@ -1514,11 +1502,7 @@ PODS:
     - React-logger (= 0.75.5)
     - React-perflogger (= 0.75.5)
     - React-utils (= 0.75.5)
-  - RNCAsyncStorage (1.24.0):
-    - React-Core
-  - RNDeviceInfo (11.1.0):
-    - React-Core
-  - RNScreens (4.8.0):
+  - RNScreens (4.9.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1540,24 +1524,11 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNSound (0.11.2):
-    - React-Core
-    - RNSound/Core (= 0.11.2)
-  - RNSound/Core (0.11.2):
-    - React-Core
   - SocketRocket (0.7.0)
   - Yoga (0.0.0)
-  - zego-uikit-prebuilt-call-rn (6.3.2):
+  - zegocloud-zimkit-rn (2.1.8):
     - React-Core
-  - zego-uikit-rn (2.17.2):
-    - React-Core
-    - ZegoUIKitReport (= 0.2.10)
-  - zegocloud-zimkit-rn (2.1.5):
-    - React-Core
-  - ZegoExpressEngine (3.19.0)
-  - ZegoUIKitReport (0.2.10)
   - ZIM (2.19.0)
-  - ZPNs (2.6.0)
 
 DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
@@ -1597,13 +1568,8 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
-  - react-native-encrypted-storage (from `../node_modules/react-native-encrypted-storage`)
-  - react-native-keep-awake (from `../node_modules/react-native-keep-awake`)
-  - react-native-orientation-locker (from `../node_modules/react-native-orientation-locker`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
-  - react-native-zego-express-engine (from `../node_modules/zego-express-engine-reactnative`)
   - react-native-zego-zim (from `../node_modules/zego-zim-react-native`)
-  - react-native-zego-zpns (from `../node_modules/zego-zpns-react-native`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -1630,22 +1596,14 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
-  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNScreens (from `../node_modules/react-native-screens`)
-  - RNSound (from `../node_modules/react-native-sound`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
-  - "zego-uikit-prebuilt-call-rn (from `../node_modules/@zegocloud/zego-uikit-prebuilt-call-rn`)"
-  - "zego-uikit-rn (from `../node_modules/@zegocloud/zego-uikit-rn`)"
   - "zegocloud-zimkit-rn (from `../node_modules/@zegocloud/zimkit-rn`)"
 
 SPEC REPOS:
   trunk:
     - SocketRocket
-    - ZegoExpressEngine
-    - ZegoUIKitReport
     - ZIM
-    - ZPNs
 
 EXTERNAL SOURCES:
   boost:
@@ -1719,20 +1677,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   React-microtasksnativemodule:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
-  react-native-encrypted-storage:
-    :path: "../node_modules/react-native-encrypted-storage"
-  react-native-keep-awake:
-    :path: "../node_modules/react-native-keep-awake"
-  react-native-orientation-locker:
-    :path: "../node_modules/react-native-orientation-locker"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
-  react-native-zego-express-engine:
-    :path: "../node_modules/zego-express-engine-reactnative"
   react-native-zego-zim:
     :path: "../node_modules/zego-zim-react-native"
-  react-native-zego-zpns:
-    :path: "../node_modules/zego-zpns-react-native"
   React-nativeconfig:
     :path: "../node_modules/react-native/ReactCommon"
   React-NativeModulesApple:
@@ -1785,20 +1733,10 @@ EXTERNAL SOURCES:
     :path: build/generated/ios
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
-  RNCAsyncStorage:
-    :path: "../node_modules/@react-native-async-storage/async-storage"
-  RNDeviceInfo:
-    :path: "../node_modules/react-native-device-info"
   RNScreens:
     :path: "../node_modules/react-native-screens"
-  RNSound:
-    :path: "../node_modules/react-native-sound"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
-  zego-uikit-prebuilt-call-rn:
-    :path: "../node_modules/@zegocloud/zego-uikit-prebuilt-call-rn"
-  zego-uikit-rn:
-    :path: "../node_modules/@zegocloud/zego-uikit-rn"
   zegocloud-zimkit-rn:
     :path: "../node_modules/@zegocloud/zimkit-rn"
 
@@ -1838,13 +1776,8 @@ SPEC CHECKSUMS:
   React-logger: 15a50e9e2fabe5d684cdd818ff1cbd2285bab1f0
   React-Mapbuffer: 5dffd4714a7261a2fd1d94985eec118d0728b787
   React-microtasksnativemodule: 9856dcf1c3d981843197b1b75253a079d961795d
-  react-native-encrypted-storage: 569d114e329b1c2c2d9f8c84bcdbe4478dda2258
-  react-native-keep-awake: 21ff40767cde4bd81021ffee12480aee4b5b91bb
-  react-native-orientation-locker: cc6f357b289a2e0dd2210fea0c52cb8e0727fdaa
   react-native-safe-area-context: 3e33e7c43c8b74dba436a5a32651cb8d7064c740
-  react-native-zego-express-engine: bd10f611ff65518aadafa8355f29c5e7f54f69ce
-  react-native-zego-zim: f52f1b0666bb5dfa89bfb81852ed8f7eb162497f
-  react-native-zego-zpns: d488f5d1701e62fe1e858c598cbf31ac5fbd1574
+  react-native-zego-zim: 5946331004939e4fb7488b955688abf8ce65631e
   React-nativeconfig: 237c862aab56a7426301fcbbb8dd6988745231e0
   React-NativeModulesApple: 5b3c2bcfa3a53b22da441b35189e902ede27513d
   React-perflogger: 46ce3b295add69087b7c5ff325b55a6c7af204fc
@@ -1871,19 +1804,11 @@ SPEC CHECKSUMS:
   React-utils: 43588634a9eca9915486154b143a0da615cfd893
   ReactCodegen: 43d3ebb0cb9c6ffc92a254d31749fd29d69844a2
   ReactCommon: ee80ae3d276a9f1daa059169405b97c600dcba45
-  RNCAsyncStorage: b6410dead2732b5c72a7fdb1ecb5651bbcf4674b
-  RNDeviceInfo: 900bd20e1fd3bfd894e7384cc4a83880c0341bd3
-  RNScreens: 4376940e34de0d1cbf2d845ba735b1e0318b7724
-  RNSound: 314cc5226453ef4a3314a196c65e8a65e5106a7b
+  RNScreens: ee069f569efb54804334321c916643f8cc9debaf
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 1dd9dabb9df8fe08f12cd522eae04a2da0e252eb
-  zego-uikit-prebuilt-call-rn: 2387a2f5623023513224e9934077f571904f9c15
-  zego-uikit-rn: 5a610dd23e99021be51a335feeae80606dc05980
-  zegocloud-zimkit-rn: 7c9fa3b3fe1d846c2a6597dfcf1ab64c96fcb2a4
-  ZegoExpressEngine: bf3a108356847243777a1c4d5ac2b5d02e8bad94
-  ZegoUIKitReport: a993f7ccc5d243998a7e601a60e16fcd6c084417
+  zegocloud-zimkit-rn: abf822840857e9f27150a7e0d3654d10a2d53046
   ZIM: 0844778ce190690fdf043ec45bb14b2f060b358b
-  ZPNs: 73bad0046a74e37315201053f9a0e7ac625d9436
 
 PODFILE CHECKSUM: 6b6a7bc6cccb41395f194f56ccb68b9b03761174
 
