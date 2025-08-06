@@ -40,10 +40,11 @@
     "@react-navigation/native-stack": "^7.3.24",
     "react-native-safe-area-context": "^5.5.2",
     "react-native-screens": "^4.13.1",
+
     "react-delegate-component": "^1.0.0",
 
-    "zego-zim-react-native": "^2.19.1",
-    "@zegocloud/zimkit-rn": "^2.1.8"
+    "zego-zim-react-native": "^2.21.1",
+    "@zegocloud/zimkit-rn": "^2.2.5"
   },
   "engines": {
     "node": ">=18"

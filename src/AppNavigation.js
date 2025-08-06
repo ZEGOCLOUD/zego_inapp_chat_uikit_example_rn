@@ -6,6 +6,7 @@ import HomePage from './HomePage';
 import { MessageListPage } from '@zegocloud/zimkit-rn';
 
 const Stack = createNativeStackNavigator();
+var backHandler = null
 
 export default function AppNavigation(props) {
   const back = () => {
@@ -19,11 +20,11 @@ export default function AppNavigation(props) {
         state: ({ data }) => {
           // first page not listening
           if (data.state.index) {
-            BackHandler.addEventListener('hardwareBackPress', back);
+            backHandler = BackHandler.addEventListener('hardwareBackPress', back);
           }
         },
         beforeRemove: (data) => {
-          BackHandler.removeEventListener('hardwareBackPress', back);
+          backHandler.remove()
         },
       }}
     >
