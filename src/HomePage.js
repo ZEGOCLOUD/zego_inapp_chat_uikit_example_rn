@@ -29,7 +29,11 @@ export default function HomePage(props) {
   const navigation = useNavigation();
 
   const exit = () => {
-    navigation.navigate('LoginPage');
+    if (typeof navigation.popTo === 'function') {
+      navigation.popTo('LoginPage');
+    } else {
+      navigation.navigate('LoginPage');
+    }
     ZIMKit.disconnectUser();
   };
   const openMenu = () => {
